@@ -13,7 +13,7 @@ class GameFieldTest {
     @org.junit.jupiter.api.Test
     void getRight() {
         GameField gameField = new GameField();
-        assertEquals(false, gameField.getRight());
+        assertEquals(true, gameField.getRight());
     }
 
     @org.junit.jupiter.api.Test
